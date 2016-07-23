@@ -107,23 +107,23 @@ while ($row =  mysql_fetch_array($query)) {
 	function switchSets(){
 
 		if(sound_type == 2){
-      document.getElementById("audio1").src = "Sounds/DrumSet2/crash-808.wav"
-			document.getElementById("audio2").src = "Sounds/DrumSet2/snare808.wav"
-			document.getElementById("audio3").src = "Sounds/DrumSet2/hihat808.wav"
-			document.getElementById("audio4").src = "Sounds/DrumSet2/tom808Hi.wav"
-			document.getElementById("audio5").src = "Sounds/DrumSet2/tom808Lo.wav"
-			document.getElementById("audio6").src = "Sounds/DrumSet2/kick808.wav"
-			document.getElementById("audio7").src = "Sounds/DrumSet2/cowbell808.wav"
+			document.getElementById("audio1").src = "Sounds/DrumSet2/crash808.ogg"
+			document.getElementById("audio2").src = "Sounds/DrumSet2/snare808.ogg"
+			document.getElementById("audio3").src = "Sounds/DrumSet2/hihat808.ogg"
+			document.getElementById("audio4").src = "Sounds/DrumSet2/tom808Hi.ogg"
+			document.getElementById("audio5").src = "Sounds/DrumSet2/tom808Lo.ogg"
+			document.getElementById("audio6").src = "Sounds/DrumSet2/kick808.ogg"
+			document.getElementById("audio7").src = "Sounds/DrumSet2/cowbell808.ogg"
 
 		}
 		else if(sound_type == 1){
-			document.getElementById("audio1").src = "Sounds/DrumSet1/crash.wav"
-			document.getElementById("audio2").src = "Sounds/DrumSet1/snare.wav"
-			document.getElementById("audio3").src = "Sounds/DrumSet1/hihat.wav"
-			document.getElementById("audio4").src = "Sounds/DrumSet1/hiTom.wav"
-			document.getElementById("audio5").src = "Sounds/DrumSet1/floorTom.wav"
-			document.getElementById("audio6").src = "Sounds/DrumSet1/kick_Acoustic.wav"
-			document.getElementById("audio7").src = "Sounds/DrumSet1/ride.wav"
+			document.getElementById("audio1").src = "Sounds/DrumSet1/crashReal.ogg"
+			document.getElementById("audio2").src = "Sounds/DrumSet1/snareReal.ogg"
+			document.getElementById("audio3").src = "Sounds/DrumSet1/hihatReal.ogg"
+			document.getElementById("audio4").src = "Sounds/DrumSet1/hiTomReal.ogg"
+			document.getElementById("audio5").src = "Sounds/DrumSet1/floorTomReal2.ogg"
+			document.getElementById("audio6").src = "Sounds/DrumSet1/kick_AcousticReal.ogg"
+			document.getElementById("audio7").src = "Sounds/DrumSet1/rideReal.ogg"
 
 		}
 
@@ -458,45 +458,45 @@ while ($row =  mysql_fetch_array($query)) {
 		<p id ="text"><b>CLICK NOTES TO PLAY</b></p>
 		<!--Clickable image to play sounds-->
 		<div>
-		<img src="New_Notes.png" id ="pic" height="50" width="1500" id ="image" onclick="storeArray();switchSets(); playSound(0)" />
+		<img src="Pictures/Notes.png" id ="pic" height="50" width="1500" id ="image" onclick="storeArray();switchSets(); playSound(0)" />
 		</div>
 		
-		<img src="patrick.gif"  id="patrick" width="600" height="600" style="visibility:hidden;>
+		<img src="Pictures/patrick.gif"  id="patrick" width="600" height="600" style="visibility:hidden;>
 
 
-			<!--Audio Sources are below-->
+	<!--Audio Sources are below-->
 	<form action="" method="post">
-		<audio id="audio4" src="FinalProjectSounds/DrumSet1/hiTomReal.ogg"></audio>
+		<audio id="audio4" src="Sounds/DrumSet1/hiTomReal.ogg"></audio>
 
 		<div id="embed"></id>
 	</form>
 	<form action="" method="post">
-                <audio id="audio6" src="FinalProjectSounds/DrumSet1/kick_AcousticReal.ogg"></audio>
+                <audio id="audio6" src="Sounds/DrumSet1/kick_AcousticReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio1" src="FinalProjectSounds/DrumSet1/crashReal.ogg"></audio>
+                <audio id="audio1" src="Sounds/DrumSet1/crashReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio2" src="FinalProjectSounds/DrumSet1/snareReal.ogg"></audio>
+                <audio id="audio2" src="Sounds/DrumSet1/snareReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio3" src="FinalProjectSounds/DrumSet1/hihatReal.ogg"></audio>
+                <audio id="audio3" src="Sounds/DrumSet1/hihatReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio7" src="FinalProjectSounds/DrumSet1/rideReal.ogg"></audio>
+                <audio id="audio7" src="Sounds/DrumSet1/rideReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio5" src="FinalProjectSounds/DrumSet1/floorTomReal2.ogg"></audio>
+                <audio id="audio5" src="Sounds/DrumSet1/floorTomReal2.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>

@@ -91,7 +91,7 @@ if($insert_post == true) {
 	}
 	
 	//Some embedded html to display a recording if the image was saved
-		$image = 'Simon-Cowell-Happy.jpg';
+		$image = 'Pictures/Simon-Cowell-Happy.jpg';
 		echo "<html>";
 			echo "<head>";
 			echo "<title>Recording Database</title>";
@@ -103,7 +103,7 @@ if($insert_post == true) {
 			
 			echo "<p><b>Post saved!</b></p>";
 			echo "<p><a href = \"Recording_Page.html\">Recording Database</a></p>";
-			echo "<p><a href = \"FinalProject_DABS.html\">Go Back to Main Page</a></p>";
+			echo "<p><a href = \"Drumset.html\">Go Back to Main Page</a></p>";
 
 			echo "<img src=".$image." height=\"600\" width=\"700\">";
 
@@ -118,7 +118,7 @@ if($insert_post == true) {
 else {
 	
 		//Some embedded html to display a picture if the image was not saved
-		$image = 'simon_cowell.jpg';
+		$image = 'Pictures/Simon_Cowell_Sad.jpg';
 		echo "<html>";
 			echo "<head>";
 			echo "<title>Record</title>";
@@ -129,7 +129,7 @@ else {
 			echo "<center>";
 			
 			echo "<p><b>Missing Author Content or Record Content! Post not saved!</b></p>";
-			echo "<p><a href = \"FinalProject_DABS.html\">Go Back to Main Page</a></p>";
+			echo "<p><a href = \"Drumset.html\">Go Back to Main Page</a></p>";
 
 			echo "<img src=".$image." height=\"700\" width=\"700\">";
 

@@ -118,23 +118,23 @@
 		sound_array = [];
 		//changes to set 2 if set 1, 1 if set 2
 		if(set == 1){
-			document.getElementById("audio1").src = "FinalProjectSounds/DrumSet2/crash808.ogg"
-			document.getElementById("audio2").src = "FinalProjectSounds/DrumSet2/snare808.ogg"
-			document.getElementById("audio3").src = "FinalProjectSounds/DrumSet2/hihat808.ogg"
-			document.getElementById("audio4").src = "FinalProjectSounds/DrumSet2/tom808Hi.ogg"
-			document.getElementById("audio5").src = "FinalProjectSounds/DrumSet2/tom808Lo.ogg"
-			document.getElementById("audio6").src = "FinalProjectSounds/DrumSet2/kick808.ogg"
-			document.getElementById("audio7").src = "FinalProjectSounds/DrumSet2/cowbell808.ogg"
+			document.getElementById("audio1").src = "Sounds/DrumSet2/crash808.ogg"
+			document.getElementById("audio2").src = "Sounds/DrumSet2/snare808.ogg"
+			document.getElementById("audio3").src = "Sounds/DrumSet2/hihat808.ogg"
+			document.getElementById("audio4").src = "Sounds/DrumSet2/tom808Hi.ogg"
+			document.getElementById("audio5").src = "Sounds/DrumSet2/tom808Lo.ogg"
+			document.getElementById("audio6").src = "Sounds/DrumSet2/kick808.ogg"
+			document.getElementById("audio7").src = "Sounds/DrumSet2/cowbell808.ogg"
 			set = 2
 		}
 		else if(set == 2){
-			document.getElementById("audio1").src = "FinalProjectSounds/DrumSet1/crashReal.ogg"
-			document.getElementById("audio2").src = "FinalProjectSounds/DrumSet1/snareReal.ogg"
-			document.getElementById("audio3").src = "FinalProjectSounds/DrumSet1/hihatReal.ogg"
-			document.getElementById("audio4").src = "FinalProjectSounds/DrumSet1/hiTomReal.ogg"
-			document.getElementById("audio5").src = "FinalProjectSounds/DrumSet1/floorTomReal2.ogg"
-			document.getElementById("audio6").src = "FinalProjectSounds/DrumSet1/kick_AcousticReal.ogg"
-			document.getElementById("audio7").src = "FinalProjectSounds/DrumSet1/rideReal.ogg"
+			document.getElementById("audio1").src = "Sounds/DrumSet1/crashReal.ogg"
+			document.getElementById("audio2").src = "Sounds/DrumSet1/snareReal.ogg"
+			document.getElementById("audio3").src = "Sounds/DrumSet1/hihatReal.ogg"
+			document.getElementById("audio4").src = "Sounds/DrumSet1/hiTomReal.ogg"
+			document.getElementById("audio5").src = "Sounds/DrumSet1/floorTomReal2.ogg"
+			document.getElementById("audio6").src = "Sounds/DrumSet1/kick_AcousticReal.ogg"
+			document.getElementById("audio7").src = "Sounds/DrumSet1/rideReal.ogg"
 			set = 1
 		}
 
@@ -1273,24 +1273,24 @@
 	function toggleDrums() {
 	  	if(document.getElementById("toggle-button").title == "off")
 			{
-				$('#crash').attr('src',"HalfInCrash.png");
-				$('#toms').attr('src',"TomLHS.png");
-				$('#bass').attr('src',"kick.png");
-				$('#ride').attr('src',"halfinRide.png");
-				$('#toms2').attr('src',"TomRHS.png");
-				$('#snare').attr('src',"esnare.png");
-				$('#hihat').attr('src',"hihat.png");
+				$('#crash').attr('src',"Pictures/HalfInCrash.png");
+				$('#toms').attr('src',"Pictures/TomLHS.png");
+				$('#bass').attr('src',"Pictures/kick.png");
+				$('#ride').attr('src',"Pictures/halfinRide.png");
+				$('#toms2').attr('src',"Pictures/TomRHS.png");
+				$('#snare').attr('src',"Pictures/esnare.png");
+				$('#hihat').attr('src',"Pictures/hihat.png");
 				document.getElementById("toggle-button").title = "on";
 			}
 			else if(document.getElementById("toggle-button").title == "on")
 			{
-				$('#crash').attr('src',"crash.png");
-				$('#toms').attr('src',"toms.png");
-				$('#bass').attr('src',"bass.png");
-				$('#ride').attr('src',"ride.png");
-				$('#toms2').attr('src',"toms.png");
-				$('#snare').attr('src',"snare.png");
-				$('#hihat').attr('src',"hihat.png");
+				$('#crash').attr('src',"Pictures/crash.png");
+				$('#toms').attr('src',"Pictures/toms.png");
+				$('#bass').attr('src',"Pictures/bass.png");
+				$('#ride').attr('src',"Pictures/ride.png");
+				$('#toms2').attr('src',"Pictures/toms.png");
+				$('#snare').attr('src',"Pictures/snare.png");
+				$('#hihat').attr('src',"Pictures/hihat.png");
 				document.getElementById("toggle-button").title = "off";
 			}
 			switchSets();
@@ -1354,43 +1354,43 @@
 		
 	<!--Audio Sources are below-->
 	<form action="" method="post">
-		<audio id="audio4" src="FinalProjectSounds/DrumSet1/hiTomReal.ogg"></audio>
+		<audio id="audio4" src="Sounds/DrumSet1/hiTomReal.ogg"></audio>
 
 		<div id="embed"></id>
 	</form>
 	<form action="" method="post">
-                <audio id="audio6" src="FinalProjectSounds/DrumSet1/kick_AcousticReal.ogg"></audio>
+                <audio id="audio6" src="Sounds/DrumSet1/kick_AcousticReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio1" src="FinalProjectSounds/DrumSet1/crashReal.ogg"></audio>
+                <audio id="audio1" src="Sounds/DrumSet1/crashReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio2" src="FinalProjectSounds/DrumSet1/snareReal.ogg"></audio>
+                <audio id="audio2" src="Sounds/DrumSet1/snareReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio3" src="FinalProjectSounds/DrumSet1/hihatReal.ogg"></audio>
+                <audio id="audio3" src="Sounds/DrumSet1/hihatReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio7" src="FinalProjectSounds/DrumSet1/rideReal.ogg"></audio>
+                <audio id="audio7" src="Sounds/DrumSet1/rideReal.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 	<form action="" method="post">
-                <audio id="audio5" src="FinalProjectSounds/DrumSet1/floorTomReal2.ogg"></audio>
+                <audio id="audio5" src="Sounds/DrumSet1/floorTomReal2.ogg"></audio>
 
 		<div id="embed"></div>
 	</form>
 
 	
-	<form action="Project_3_Record.php" method="post" onsubmit="concat()" style="position:absolute; TOP:176px; WIDTH:10%; HEIGHT:5%">
+	<form action="Save_Recording.php" method="post" onsubmit="concat()" style="position:absolute; TOP:176px; WIDTH:10%; HEIGHT:5%">
 			<!-- Submit button for saving the recording-->
 			<button type="submit" id = "save_recording" style = "WIDTH:100%; HEIGHT:100%">Save Recording</button><br><br>
 			<!-- Input box for author of the recording-->
